@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+
+body{
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(124, 250, 250);
+   }
+
+h1{
+    font-size: 6rem;
+    margin-bottom: 10px;
+    color: aqua;
+    font-family: 'Fascinate',cursive;
+}
+
+button{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 8px rgb(94, 4, 94);
+    color:#7aecd2;
+    background-color: #750ed6;
+    font-family: 'Fascinate',cursive;
+}
+
+span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: aquamarine;
+   font-family: 'Londrina Solid',cursive;
+   letter-spacing: 0.2em;
+}
+
+#game-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin: 10px auto;
+}
+
+#category-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#clue-board{
+    flex-direction: column;
+}
+
+.clue-row{
+    display: flex;
+}
+
+.clue-box {
+    display: flex;
+    align-items: center; /*vertical*/
+    justify-content: center; /*horizontal*/
+    background-color: #750ed6;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Londrina Solid',cursive;
+    height: 100px;
+    flex: 1;
+    text-transform: uppercase;
+    box-shadow: 0 0 8px 8px rgb(94, 4, 94);
+    color:#7aecd2;
+
+}
+
+.category-box {
+    font-size: 2rem;
+    line-height: 25px;
+    box-shadow: 0 0 8px 8px rgb(94, 4, 94);
+    color:#7aecd2;
+
+}
+
+.clicked-box {
+font-size: 1rem;
+}
+
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #0323b3, #610e99, #0b5570, #138168);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
